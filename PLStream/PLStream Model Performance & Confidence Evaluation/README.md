@@ -10,7 +10,7 @@ Worked with a train.csv dataset containing actual tweet sentiments & sentiment p
 
 - Studied the trade-offs among Performance Evaluation Metrics such as *Confusion Matrix*, *Accuracy*, *F1-Score*, *ROC AUC* & *PR AUC* and recommended suitable performance metrics to accurately evaluate the performance of PLStream binary classifier, also considering its pros and cons.
 
-<img width="608" alt="image" src="https://user-images.githubusercontent.com/64684527/199881161-ce21a77f-f052-4620-8486-cabceefb6046.png">
+<img width="847" alt="image" src="https://user-images.githubusercontent.com/64684527/199883550-4cb0276b-ab6c-485b-8999-914c62abd3b6.png">
 
 ## Data Wrangling & Manipulation of pseudo_dataset
 
@@ -24,12 +24,12 @@ To make the data easier to work with, conversion of the data to a data frame for
 
 - Carried out the *Student's t-test* and detected a statistically-significant difference between mean cosine similarity difference values for correct and incorrect tweet sentiment predictions.
 
-![image](https://user-images.githubusercontent.com/64684527/199881870-7da2751d-eed5-46b1-8bf4-4fb837edb116.png)
+<img width="691" alt="image" src="https://user-images.githubusercontent.com/64684527/199883965-657e98a9-cd63-4045-83e4-db5b91af336c.png">
 
 - Discovered the underlying *Normal Probability Density Function* for the frequency of correctly predicted tweets in relation to their corresponding cosine similarity difference values.
 
-<img width="551" alt="image" src="https://user-images.githubusercontent.com/64684527/199881376-c8a57b3d-dfcb-4367-9829-7505a69185ab.png">
+<img width="721" alt="image" src="https://user-images.githubusercontent.com/64684527/199883277-a8d1d8cc-0a47-4ee7-bc61-3fd77027a0dc.png">
 
 - Calculated *Confidence Intervals* for the true means of the cosine similarity difference values for correct and incorrect tweet predictions made by the PLStream model.
 
-<img width="506" alt="image" src="https://user-images.githubusercontent.com/64684527/199881567-6c42804c-e345-41b5-879a-b49dd2a95ea9.png">
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/64684527/199883388-eadc4c9c-f9c1-428a-a209-e176f3ed6946.png">
