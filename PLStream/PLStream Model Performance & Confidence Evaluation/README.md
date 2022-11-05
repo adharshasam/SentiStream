@@ -1,6 +1,6 @@
 # PLStream Model Performance & Confidence Evaluation
 
-Worked with a train.csv dataset containing actual tweet sentiments & sentiment predictions of 560000 tweets made by the PLStream classifier which is a two-layer word2vec neural network followed by a softmax activation function & a categorical cross-entropy loss function.
+Worked with a train.csv dataset containing actual tweet sentiments & sentiment predictions of 5,60,000 tweets made by the PLStream classifier which is a two-layer word2vec neural network followed by a softmax activation function & a categorical cross-entropy loss function.
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/64684527/199879816-ed0b10ab-2dd9-476a-8bb1-2c974a09ea09.png">
 
