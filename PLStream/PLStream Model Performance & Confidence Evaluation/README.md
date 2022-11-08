@@ -1,5 +1,7 @@
 # PLStream Model Performance & Confidence Evaluation
 
+**This folder contains all my contributions as an Undergraduate Research Student for the Data Science Research project - Online Sentiment Classification Of Massive Data Streams - at SUTD.**
+
 Worked with a train.csv dataset containing actual tweet sentiments & sentiment predictions of 5,60,000 tweets made by the PLStream classifier which is a two-layer word2vec neural network followed by a softmax activation function & a categorical cross-entropy loss function.
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/64684527/199879816-ed0b10ab-2dd9-476a-8bb1-2c974a09ea09.png">
@@ -16,7 +18,7 @@ Worked with a train.csv dataset containing actual tweet sentiments & sentiment p
 
 The list form of *pseudo_dataset* found in *plstream_linear.ipynb* contains valuable information which could help us derive valuable insights on quantitatively evaluating PLStream model performance.
 
-*Data format : [index,|cosine similarity difference|, predicted label,{neg_coefficient,pos_coefficient,true_label,'cos_sim_bad','cos_sim_good'}]*
+Data format : [index,|cosine similarity difference|, predicted label,{neg_coefficient,pos_coefficient,true_label,'cos_sim_bad','cos_sim_good'}]
 
 To make the data easier to work with, conversion of the data to a data frame format containing cosine similarity difference and correct guess values was performed.
 
