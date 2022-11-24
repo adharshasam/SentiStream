@@ -8,7 +8,7 @@ Worked with a train.csv dataset containing actual tweet sentiments & sentiment p
 
 ## PLStream System Architecture 
 
-<img width="601" alt="image" src="https://user-images.githubusercontent.com/64684527/203734064-939230e0-d98e-4af4-b293-deaa434e77b1.png">
+<img width="815" alt="image" src="https://user-images.githubusercontent.com/64684527/203734939-ecea74c7-50d3-4558-8002-5326f5385dd3.png">
 
 ## Evaluation of PLStream Model Performance
 
