@@ -6,6 +6,10 @@ Worked with a train.csv dataset containing actual tweet sentiments & sentiment p
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/64684527/199879816-ed0b10ab-2dd9-476a-8bb1-2c974a09ea09.png">
 
+## PLStream System Aarchitecturerchitecture 
+
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/64684527/203732859-f88da1b0-5aa0-43ae-8ea6-051e266118c2.png">
+
 ## Evaluation of PLStream Model Performance
 
 - Fixed binary class imbalance in the dataset using *Random Undersampling* & *SMOTE* techniques.
