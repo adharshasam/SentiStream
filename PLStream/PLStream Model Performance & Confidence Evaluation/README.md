@@ -40,7 +40,7 @@ To make the data easier to work with, conversion of the data to a data frame for
 
 <img width="667" alt="image" src="https://user-images.githubusercontent.com/64684527/199883388-eadc4c9c-f9c1-428a-a209-e176f3ed6946.png">
 
-## Literature Review Research Papers
+## Literature Review of Research Papers
 
 - CAMEL - Managing Data for Efficient Stream Learning: https://dl.acm.org/doi/pdf/10.1145/3514221.3517836
 - Online Coreset Selection for Rehearsal-based Continual Learning: https://openreview.net/pdf?id=f9D-5WNG4Nv
