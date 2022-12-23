@@ -45,3 +45,4 @@ To make the data easier to work with, conversion of the data to a data frame for
 - CAMEL - Managing Data for Efficient Stream Learning: https://dl.acm.org/doi/pdf/10.1145/3514221.3517836
 - Online Coreset Selection for Rehearsal-based Continual Learning: https://openreview.net/pdf?id=f9D-5WNG4Nv
 - Cynical Selection of Language Model Training Data: https://arxiv.org/abs/1709.02279
+- Corpus Similarity Measures Remain Robust Across Diverse Languages: https://arxiv.org/ftp/arxiv/papers/2206/2206.04332.pdf
