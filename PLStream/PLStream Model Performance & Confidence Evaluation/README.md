@@ -1,6 +1,6 @@
 # PLStream Model Performance & Confidence Evaluation
 
-**This folder contains all my contributions for the Data Science Research project - Online Sentiment Classification Of Massive Data Streams - as an Undergraduate Research Student at SUTD.**
+**This folder contains all my contributions for the Data Science NLP Research project - Online Sentiment Classification Of Massive Data Streams - as an Undergraduate Research Student at SUTD.**
 
 Worked with a train.csv dataset containing actual tweet sentiments & sentiment predictions of 5,60,000 tweets made by the PLStream classifier which is a two-layer word2vec neural network followed by a softmax activation function & a categorical cross-entropy loss function.
 
