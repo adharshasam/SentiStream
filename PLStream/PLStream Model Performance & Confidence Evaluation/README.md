@@ -47,7 +47,7 @@ To make the data easier to work with, conversion of the data to a data frame for
 - Cynical Selection of Language Model Training Data: https://arxiv.org/abs/1709.02279
 - Corpus Similarity Measures Remain Robust Across Diverse Languages: https://arxiv.org/abs/2206.04332
 
-## Corpus Correlation Analysis of Scholarly papers STEM Articles from 2018 - 2022
+## Corpus Correlation Analysis of Scholarly STEM Articles from 2018 - 2022
 
 Dataset used: https://www.kaggle.com/datasets/Cornell-University/arxiv
 
