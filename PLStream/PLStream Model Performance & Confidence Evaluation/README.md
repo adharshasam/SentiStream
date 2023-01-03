@@ -53,4 +53,4 @@ Dataset used: https://www.kaggle.com/datasets/Cornell-University/arxiv
 
 Text Pre-processing in NLP -> TF-IDF DTM -> Pivot Table -> Dimensionality Reduction on Sparse Matrix with PCA -> Correlation Analysis Heat Map
 
-<img width="229" alt="image" src="https://user-images.githubusercontent.com/64684527/210371463-94c92a3a-e937-4455-b6ad-1d6123bc5468.png">
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/64684527/210371611-413a9647-08e3-468e-901d-3692d900d55f.png">
