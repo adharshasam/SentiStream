@@ -10,7 +10,7 @@
 
 **Dataset of Population Sample** contained actual tweet sentiments & sentiment predictions of 5,60,000 tweets made by the PLStream binary classifier which is a two-layer word2vec neural network followed by a softmax activation function & a categorical cross-entropy loss function.
 
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/64684527/199879816-ed0b10ab-2dd9-476a-8bb1-2c974a09ea09.png">
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/207d4ddc-7286-4bc6-8dab-1885aab11139)
 
 ## Evaluation of PLStream Model Performance
 
@@ -34,7 +34,7 @@ To make the data easier to work with, conversion of the data to a data frame for
 
 ● **Kernel Density Estimation** to discover the underlying Normal Probability Density Function of the frequency of correctly predicted tweets for their corresponding cosine similarity difference values.
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/13e55644-3420-4230-88be-d92414cfad1f)
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/1cb234db-2a99-4e12-80d7-2e1157129bea)
 
 ● **Confidence Intervals** of the true means of the cosine similarity difference values for correct & incorrect tweet predictions made by PLStream model.
 
