@@ -20,7 +20,7 @@
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/c038a4fd-ef8f-4bff-a84f-a693496088d9)
 
-## Data Wrangling & Manipulation of pseudo_dataset
+**Data Wrangling & Manipulation of pseudo_dataset**
 
 The list form of *pseudo_dataset* found in *plstream_linear.ipynb* contains valuable information which could help us derive valuable insights on quantitatively evaluating PLStream model performance.
 
