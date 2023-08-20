@@ -1,61 +1,64 @@
 # PLStream Model Performance & Confidence Evaluation
 
-**As an Undergraduate Research Student, I worked under the guidance of Prof. Shuhao Zhang & his IntelliStream Research Team who aimed to develop a novel online sentiment classification system - PLStream - which processes data streams incrementally, classifies tweets with or without labels, & scales linearly with increasing hardware resources.**
+**As an Undergraduate Student Researcher, I worked with the IntelliStream Research Group @ SUTD under the guidance of Prof. Shuhao Zhang who aimed to develop a novel, Apache Flink-based, semi-supervised online sentiment classification system – PLStream – which processes massive data streams incrementally, classifies text data (such as Twitter tweets or online product reviews) with or without labels as positive or negative text sentiments & scales linearly with increasing hardware resources.**
 
-## PLStream System Architecture
+_The preprint of the research paper introducing describing the framework of PLStream can be accessed here:_ [arXiv:2203.12368](https://arxiv.org/abs/2203.12368) [cs.DB]
 
-<img width="815" alt="image" src="https://user-images.githubusercontent.com/64684527/203735766-49a34564-7bcc-437f-9139-c23cb0714005.png">
+###My Role in the IntelliStream Research Group
 
-**I worked independently to quantitatively assess the overall model performance & predictive accuracy of PLStream using various statistical techniques in Python.**
+As a UROP (Undergraduate Research Opportunities Programme) Student, I was involved in the _‘Confidence Evaluation’_ segment of this NLP Research Project.
 
-**Dataset of Population Sample** contained actual tweet sentiments & sentiment predictions of 5,60,000 tweets made by the PLStream binary classifier which is a two-layer word2vec neural network followed by a softmax activation function & a categorical cross-entropy loss function.
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/2a65514e-c47a-4d6a-8a19-c786ca7318d8)
+<sub>Fig: PLStream Online Text Sentiment Classification System Architecture</sub>
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/fe133db9-cf01-4b9a-9765-eac986b327a2)
+Using statistical & machine learning techniques in Python, I quantitatively evaluated the performance of the text sentiment classifier & calculated the 'confidence' of text sentiment predictions. 
 
-## Evaluation of PLStream Model Performance
+During the course of this UROP project, I got good exposure to important concepts in Natural Languague Processing & also received the opportunity to get hands-on experience using Data Science Python packages shown below.
 
-● **Random Undersampling** & **SMOTE** techniques to fix binary class imbalance in the sample dataset containing true & predicted tweet sentiments.
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/612e6466-664d-49a6-a277-2e6bd4b145a8)
 
-● Experimented with different Performance Evaluation Metrics such as **Confusion Matrix**, **Accuracy**, **F1-Score**, **ROC AUC** & **PR AUC** to understand trade-offs & choose the best metric for the PLStream binary classifier.
+###Performance Evaluation of the Text Sentiment Classification System
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/c038a4fd-ef8f-4bff-a84f-a693496088d9)
+★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) on labelled text data of over 380k entries using various model performance metrics such as: 
 
-**Data Wrangling & Manipulation of pseudo_dataset**
+• Confusion Matrix (Accuracy, Precision, Recall)
+• F1-Score   
+• ROC Curve & AUC Score
+• Precision-Recall Curve & Average Precision
+• Silhouette Coefficient
+• Calisnki-Harabasz Coefficient
 
-The list form of *pseudo_dataset* found in *plstream_linear.ipynb* contains valuable information which could help us derive valuable insights on quantitatively evaluating PLStream model performance.
+for both supervised & unsupervised machine learning.
 
-**Data format :** [index,|cosine similarity difference|, predicted label,{neg_coefficient,pos_coefficient,true_label,'cos_sim_bad','cos_sim_good'}]
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/64c1c00b-37a6-4758-bed8-9d6340aea68c)
 
-To make the data easier to work with, conversion of the data to a data frame format containing cosine similarity difference and correct guess values was performed.
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/cb60debc-a8b2-4d0c-b349-778314a90a2b)
+<sub>Fig: Labelled text sentiment data containing ground_truth & prediction values</sub>
 
-● **Student's t-test** to discover a statistically-significant difference between mean cosine similarity difference values for correct & incorrect tweet sentiment predictions.
+###'Confidence' Evaluation of Text Sentiment Predictions
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/b572fb1c-35db-40b9-bc07-4b0b8a950766)
+★ Performed **Two-Sample t-Test** to detect a statistically-signficant difference between the mean cosine similarity difference values and the correct & incorrect text sentiment predictions.
 
-● **Kernel Density Estimation** to discover the underlying Normal Probability Density Function of the frequency of correctly predicted tweets for their corresponding cosine similarity difference values.
+★ Approximated the Gaussian PDF of the frequencies of correct text sentiment predictions using **Kernel Density Estimation**.
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/dbeeb29f-e670-44b2-98de-9ed0f91ef4d4)
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/6b6623d8-3e98-4a52-aff5-062a2f2fada5)
 
-● **Confidence Intervals** of the true means of the cosine similarity difference values for correct & incorrect tweet predictions made by PLStream model.
+★ Calculated **Confidence Intervals** of the true mean of the cosine similarity difference values for text sentiments accurately predicted by the sentiment classification system.
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/19d2adb9-2194-408d-82fb-23df78f82a69)
+###Adhoc Tasks
 
-## Ad-Hoc Tasks
+★ **Literature Review of Relevant Research Papers** to brainstorm ways for a more robust **Data Stream Mining** (Stream Learning). 
 
-● **Literature Review of Research Papers**
+• CAMEL - Managing Data for Efficient Stream Learning: https://dl.acm.org/doi/pdf/10.1145/3514221.3517836
 
-CAMEL - Managing Data for Efficient Stream Learning: https://dl.acm.org/doi/pdf/10.1145/3514221.3517836
+• Online Coreset Selection for Rehearsal-based Continual Learning: https://openreview.net/pdf?id=f9D-5WNG4Nv
 
-Online Coreset Selection for Rehearsal-based Continual Learning: https://openreview.net/pdf?id=f9D-5WNG4Nv
+• Cynical Selection of Language Model Training Data: https://arxiv.org/abs/1709.02279
 
-Cynical Selection of Language Model Training Data: https://arxiv.org/abs/1709.02279
+• Corpus Similarity Measures Remain Robust Across Diverse Languages: https://arxiv.org/abs/2206.04332
 
-Corpus Similarity Measures Remain Robust Across Diverse Languages: https://arxiv.org/abs/2206.04332
+★ **Corpus Correlation Analysis of Scholarly STEM Articles from 2018 – 2022**
 
-● **Corpus Correlation Analysis of Scholarly STEM Articles from 2018 - 2022**
+Text Data Pre-Processing > TF-IDF DTM (Pivot Table) > Dimensionality Reduction on Sparse Matrix with Principal Component Analysis (PCA) > Yearly Corpus Correlation Heat Map
 
-**Dataset used:** https://www.kaggle.com/datasets/Cornell-University/arxiv
-
-Text pre-processing -> TF-IDF DTM -> Pivot Table -> Dimensionality Reduction on Sparse Matrix with PCA -> Correlation Analysis Heat Map
-
-<img width="432" alt="image" src="https://user-images.githubusercontent.com/64684527/210374182-ca9698bc-2576-470f-bd2c-f8a2550cf9f0.png">
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/cd6fb63e-6b15-49ae-af58-00032b4a4b0b)
