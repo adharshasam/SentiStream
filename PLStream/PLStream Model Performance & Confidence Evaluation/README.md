@@ -47,7 +47,7 @@ for both supervised & unsupervised machine learning.
 
 ## 'Confidence' Evaluation of Text Sentiment Predictions
 
-★ Performed **Two-Sample t-Test** to detect a statistically-signficant difference between the mean cosine similarity difference values and the correct & incorrect text sentiment predictions.
+★ Performed **Two-Sample t-Test** to detect a statistically-significant difference between the mean cosine similarity difference values and the correct & incorrect text sentiment predictions.
 
 ★ Approximated the Gaussian PDF of the frequencies of correct text sentiment predictions using **Kernel Density Estimation**.
 
