@@ -4,7 +4,7 @@
 
 _The preprint of the research paper introducing describing the framework of PLStream can be accessed here:_ [arXiv:2203.12368](https://arxiv.org/abs/2203.12368) [cs.DB]
 
-### My Role in the IntelliStream Research Group
+## My Role in the IntelliStream Research Group
 
 As a UROP (Undergraduate Research Opportunities Programme) Student, I was involved in the _‘Confidence Evaluation’_ segment of this NLP Research Project.
 
@@ -19,7 +19,7 @@ During the course of this UROP project, I got good exposure to important concept
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/38ad47d2-627a-4166-8f01-1858913fd660)
 
 
-### Performance Evaluation of the Text Sentiment Classification System
+## Performance Evaluation of the Text Sentiment Classification System
 
 ★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) on labelled text data of over 380k entries using various model performance metrics such as: 
 
@@ -44,7 +44,7 @@ for both supervised & unsupervised machine learning.
 <sub>Fig: Labelled text sentiment data containing ground_truth & prediction values</sub>
 
 
-### 'Confidence' Evaluation of Text Sentiment Predictions
+## 'Confidence' Evaluation of Text Sentiment Predictions
 
 ★ Performed **Two-Sample t-Test** to detect a statistically-signficant difference between the mean cosine similarity difference values and the correct & incorrect text sentiment predictions.
 
@@ -54,7 +54,8 @@ for both supervised & unsupervised machine learning.
 
 ★ Calculated **Confidence Intervals** of the true mean of the cosine similarity difference values for text sentiments accurately predicted by the sentiment classification system.
 
-### Adhoc Tasks
+
+## Adhoc Tasks
 
 ★ **Literature Review of Relevant Research Papers** to brainstorm ways for a more robust **Data Stream Mining** (Stream Learning). 
 
