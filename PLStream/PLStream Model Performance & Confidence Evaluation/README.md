@@ -9,6 +9,7 @@ _The preprint of the research paper introducing describing the framework of PLSt
 As a UROP (Undergraduate Research Opportunities Programme) Student, I was involved in the _‘Confidence Evaluation’_ segment of this NLP Research Project.
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/2a65514e-c47a-4d6a-8a19-c786ca7318d8)
+
 <sub>Fig: PLStream Online Text Sentiment Classification System Architecture</sub>
 
 Using statistical & machine learning techniques in Python, I quantitatively evaluated the performance of the text sentiment classifier & calculated the 'confidence' of text sentiment predictions. 
@@ -17,15 +18,21 @@ During the course of this UROP project, I got good exposure to important concept
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/38ad47d2-627a-4166-8f01-1858913fd660)
 
+
 ### Performance Evaluation of the Text Sentiment Classification System
 
 ★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) on labelled text data of over 380k entries using various model performance metrics such as: 
 
 • Confusion Matrix (Accuracy, Precision, Recall)
+
 • F1-Score   
+
 • ROC Curve & AUC Score
+
 • Precision-Recall Curve & Average Precision
+
 • Silhouette Coefficient
+
 • Calisnki-Harabasz Coefficient
 
 for both supervised & unsupervised machine learning.
@@ -33,7 +40,9 @@ for both supervised & unsupervised machine learning.
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/64c1c00b-37a6-4758-bed8-9d6340aea68c)
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/cb60debc-a8b2-4d0c-b349-778314a90a2b)
+
 <sub>Fig: Labelled text sentiment data containing ground_truth & prediction values</sub>
+
 
 ### 'Confidence' Evaluation of Text Sentiment Predictions
 
@@ -56,6 +65,7 @@ for both supervised & unsupervised machine learning.
 • Cynical Selection of Language Model Training Data: https://arxiv.org/abs/1709.02279
 
 • Corpus Similarity Measures Remain Robust Across Diverse Languages: https://arxiv.org/abs/2206.04332
+
 
 ★ **Corpus Correlation Analysis of Scholarly STEM Articles from 2018 – 2022**
 
