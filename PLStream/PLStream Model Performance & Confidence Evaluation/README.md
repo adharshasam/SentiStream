@@ -21,7 +21,7 @@ During the course of this UROP project, I got good exposure to important concept
 
 ## Performance Evaluation of the Text Sentiment Classification System
 
-★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) with labelled text data of over 380k predicted sentiment entries using various model performance metrics such as:
+★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) with labelled text data of over 300k predicted sentiment entries using various model performance metrics such as:
 
 • **Confusion Matrix (Accuracy, Precision, Recall)**
 
