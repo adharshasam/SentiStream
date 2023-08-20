@@ -16,7 +16,7 @@ Using statistical & machine learning techniques in Python, I quantitatively eval
 
 During the course of this UROP project, I got good exposure to important concepts in Natural Languague Processing & also received the opportunity to get hands-on experience using Data Science Python packages shown below.
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/38ad47d2-627a-4166-8f01-1858913fd660)
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/a12dcc69-e71e-4bea-929f-6d21565d1c75)
 
 
 ## Performance Evaluation of the Text Sentiment Classification System
