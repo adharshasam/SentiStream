@@ -39,6 +39,7 @@ for both supervised & unsupervised machine learning.
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/64c1c00b-37a6-4758-bed8-9d6340aea68c)
 
+
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/cb60debc-a8b2-4d0c-b349-778314a90a2b)
 
 <sub>Fig: Labelled text sentiment data containing ground_truth & prediction values</sub>
@@ -50,7 +51,7 @@ for both supervised & unsupervised machine learning.
 
 ★ Approximated the Gaussian PDF of the frequencies of correct text sentiment predictions using **Kernel Density Estimation**.
 
-![image](https://github.com/adharshasam/SentiStream/assets/64684527/f828dabd-de62-42c3-858e-ad2667bb439e)
+![image](https://github.com/adharshasam/SentiStream/assets/64684527/1e952392-4390-4c16-9f4a-f365b065bf22)
 
 ★ Calculated **Confidence Intervals** of the true mean of the cosine similarity difference values for text sentiments accurately predicted by the sentiment classification system.
 
