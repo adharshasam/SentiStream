@@ -71,6 +71,8 @@ for both supervised & unsupervised machine learning.
 
 ★ **Corpus Correlation Analysis of Scholarly STEM Articles from 2018 – 2022**
 
+**Kaggle Dataset Used:** https://www.kaggle.com/datasets/Cornell-University/arxiv
+
 Text Data Pre-Processing > TF-IDF DTM (Pivot Table) > Dimensionality Reduction on Sparse Matrix with Principal Component Analysis (PCA) > Yearly Corpus Correlation Heat Map
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/cd6fb63e-6b15-49ae-af58-00032b4a4b0b)
