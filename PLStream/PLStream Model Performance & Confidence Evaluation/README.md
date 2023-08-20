@@ -21,7 +21,7 @@ During the course of this UROP project, I got good exposure to important concept
 
 ## Performance Evaluation of the Text Sentiment Classification System
 
-★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) on labelled text data of over 380k entries using various model performance metrics such as: 
+★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) with labelled text data of over 380k predicted sentiment entries using various model performance metrics such as:
 
 • **Confusion Matrix (Accuracy, Precision, Recall)**
 
@@ -49,7 +49,7 @@ for both supervised & unsupervised machine learning.
 
 ★ Performed **Two-Sample t-Test** to detect a statistically-significant difference between the mean cosine similarity difference values and the correct & incorrect text sentiment predictions.
 
-★ Approximated the Gaussian PDF of the frequencies of correct text sentiment predictions using **Kernel Density Estimation**.
+★ Approximated the Gaussian PDF for the frequencies of correct text sentiment predictions using **Kernel Density Estimation**.
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/1e952392-4390-4c16-9f4a-f365b065bf22)
 
