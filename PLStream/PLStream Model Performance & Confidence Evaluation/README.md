@@ -23,17 +23,17 @@ During the course of this UROP project, I got good exposure to important concept
 
 ★ Evaluated the performance of semi-supervised binary text sentiment classifier (a two-layer word2vec neural network + softmax activation function + categorical cross-entropy loss function) on labelled text data of over 380k entries using various model performance metrics such as: 
 
-• Confusion Matrix (Accuracy, Precision, Recall)
+• **Confusion Matrix (Accuracy, Precision, Recall)**
 
-• F1-Score   
+• **F1-Score**  
 
-• ROC Curve & AUC Score
+• **ROC Curve & AUC Score**
 
-• Precision-Recall Curve & Average Precision
+• **Precision-Recall Curve & Average Precision**
 
-• Silhouette Coefficient
+• **Silhouette Coefficient**
 
-• Calisnki-Harabasz Coefficient
+• **Calisnki-Harabasz Coefficient**
 
 for both supervised & unsupervised machine learning.
 
