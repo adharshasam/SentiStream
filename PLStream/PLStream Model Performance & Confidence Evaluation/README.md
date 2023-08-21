@@ -2,7 +2,7 @@
 
 **As an Undergraduate Student Researcher, I worked with the IntelliStream Research Group @ SUTD under the guidance of Prof. Shuhao Zhang who aimed to develop a novel, Apache Flink-based, semi-supervised online sentiment classification system – PLStream – which processes massive data streams incrementally, classifies text data (such as Twitter tweets or online product reviews) with or without labels as positive or negative text sentiments & scales linearly with increasing hardware resources.**
 
-_The preprint of the research paper introducing describing the framework of PLStream can be accessed here:_ [arXiv:2203.12368](https://arxiv.org/abs/2203.12368) [cs.DB]
+_The preprint of the research paper describing the framework of PLStream can be accessed here:_ [arXiv:2203.12368](https://arxiv.org/abs/2203.12368) [cs.DB]
 
 ## My Role in the IntelliStream Research Group
 
@@ -14,7 +14,7 @@ As a UROP (Undergraduate Research Opportunities Programme) Student, I was involv
 
 Using statistical & machine learning techniques in Python, I quantitatively evaluated the performance of the text sentiment classifier & calculated the 'confidence' of text sentiment predictions. 
 
-During the course of this UROP project, I got good exposure to important concepts in Natural Languague Processing & also received the opportunity to get hands-on experience using Data Science Python packages shown below.
+During the course of this UROP project, I got good exposure to important concepts in Natural Language Processing & also received the opportunity to get hands-on experience using Data Science Python packages shown below.
 
 ![image](https://github.com/adharshasam/SentiStream/assets/64684527/a12dcc69-e71e-4bea-929f-6d21565d1c75)
 
